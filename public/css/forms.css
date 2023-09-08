@@ -1,0 +1,133 @@
+/*
+    Cristian David Vasquez
+*/
+
+.step-content form input::-webkit-input-placeholder { color: rgba(0,0,0,0.35) !important; }
+.step-content form input:-moz-placeholder { color: rgba(0,0,0,0.35) !important; }
+.step-content form input::-moz-placeholder { color: rgba(0,0,0,0.35) !important; }
+.step-content form input:-ms-input-placeholder { color: rgba(0,0,0,0.35) !important; }
+
+.stepper .done .circle{
+    background-color: #00B3BC !important;
+}
+
+.stepper .active .circle{
+    background-color: #FCB21C !important;
+}
+
+.stepper .warning .circle{
+    background-color: #ff3547 !important;
+}
+
+.stepper li .pointer{
+    cursor: pointer !important;
+}
+
+ul.stepper {
+    padding: 0 1.5rem;
+    padding: 1.5rem;
+    margin: 1em -1.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    counter-reset: section;
+}
+
+ul.stepper li a .circle {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: .5rem;
+    line-height: 2.5rem;
+    color: #fff;
+    text-align: center;
+    background: rgba(0,0,0,0.38);
+    border-radius: 50%;
+}
+
+ul.stepper li a .label {
+  color: rgba(0,0,0,0.38);
+}
+
+ul.stepper {
+    padding: 0 1.5rem;
+    padding: 1.5rem;
+    margin: 1em -1.5rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    counter-reset: section;
+}
+
+.stepper-horizontal {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.stepper-horizontal li {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.stepper-horizontal>li:not(:last-of-type) {
+    margin-bottom: 0 !important;
+}
+
+ul.stepper>li:not(:last-of-type) {
+    margin-bottom: .625rem;
+    -webkit-transition: margin-bottom .4s;
+    -o-transition: margin-bottom .4s;
+    transition: margin-bottom .4s;
+}
+.stepper-horizontal li:not(:last-child):after {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 1px;
+    margin: .5rem 0 0 0;
+    content: "";
+    background-color: rgba(0,0,0,0.1);
+}
+
+.stepper-horizontal li:not(:first-child):before {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 1px;
+    margin: .5rem 10px 0 0;
+    content: "";
+    background-color: rgba(0,0,0,0.1);
+}
+
+.form-field{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.label-description{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    line-height: 16px;
+    color: #484848;
+    line-height: 135%;
+        margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100%;
+}

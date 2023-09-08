@@ -1,0 +1,93 @@
+// Cosmo 4.3.1
+// Bootswatch
+
+
+// Variables ===================================================================
+
+$web-font-path: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" !default;
+
+@import url($web-font-path);
+
+// Navbar ======================================================================
+
+// Buttons =====================================================================
+
+// Typography ==================================================================
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin-top: 85px;
+}
+
+// Tables ======================================================================
+
+// Forms =======================================================================
+
+// Navs ========================================================================
+
+// Nav sticky ==================================================================
+
+.sticky-top {
+  top: 110px;
+}
+
+// Indicators ==================================================================
+
+// Progress bars ===============================================================
+
+.progress {
+  @include box-shadow(none);
+
+  .progress-bar {
+    font-size: 8px;
+    line-height: 8px;
+  }
+}
+
+// Containers ==================================================================
+
+
+header.home {
+  background-image: url('../img/layout/bg-banner-home.jpg');
+  background-size: cover;
+  background-attachment: centered;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header .home-2 {
+  background-image: url('../img/layout/bg-banner-home-2.png');
+  background-size: cover;
+  background-attachment: centered;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 350px;
+}
+
+header.content {
+  background-image: url('../img/layout/bg-headers.jpg');
+  background-size: cover;
+  background-attachment: centered;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.content__blue {
+  background-image: url('../img/layout/bg-sections-blue.jpg');
+  background-size: cover;
+  background-attachment: centered;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section.content__red {
+  background-image: url('../img/layout/bg-sections-red.jpg');
+  background-size: cover;
+  background-attachment: centered;
+  background-repeat: no-repeat;
+  background-position: center;
+}
